@@ -1,0 +1,151 @@
+{
+  "user": [
+    {
+      "id": "admin",
+      "name": "NT Infotech",
+      "password": "Test$1234",
+      "email": "test@gmail.com",
+      "gender": "male",
+      "role": "admin",
+      "isactive": true,
+      "address": {
+        "area": "chennai"
+      }
+    },
+    {
+      "id": "testuser",
+      "name": "Thuli",
+      "password": "Test@1234",
+      "email": "lebo@gmail.com",
+      "gender": "male",
+      "role": "user",
+      "isactive": true
+    },
+    {
+      "id": "Jhon1",
+      "name": "NT Infotech",
+      "password": "Test@1233",
+      "email": "te@in.com",
+      "gender": "male",
+      "role": "user",
+      "isactive": true
+    },
+    {
+      "id": "Lebzaza",
+      "name": "Kelebo",
+      "password": "Lebo@12345",
+      "email": "lebo12@gmail.com",
+      "gender": "male",
+      "role": "user",
+      "isactive": true
+    },
+    {
+      "id": "Lericia123",
+      "name": "Lericia",
+      "password": "Leri@12345",
+      "email": "lericia@gmail",
+      "gender": "female",
+      "role": "user",
+      "isactive": true
+    }
+  ],
+  "role": [
+    {
+      "code": "user",
+      "name": "User"
+    },
+    {
+      "code": "dev",
+      "name": "Developer"
+    },
+    {
+      "code": "tester",
+      "name": "Tester"
+    },
+    {
+      "code": "da",
+      "name": "Data Analyst"
+    },
+    {
+      "code": "tech",
+      "name": "Technician"
+    },
+    {
+      "code": "admin",
+      "name": "Admin"
+    }
+  ],
+  "menu": [
+    {
+      "code": "user",
+      "name": "User"
+    },
+    {
+      "code": "customer",
+      "name": "Customer"
+    },
+    {
+      "code": "da",
+      "name": "Data Analyst"
+    }
+  ],
+  "sideitem": [
+    {
+      "code": "da",
+      "name": "Data Analyst"
+    },
+    {
+      "code": "da",
+      "name": "Data Analyst"
+    }
+  ],
+  "roleaccess": [
+    {
+      "role": "admin",
+      "menu": "user",
+      "haveedit": true,
+      "haveadd": true,
+      "havedelete": true
+    },
+    {
+      "role": "admin",
+      "menu": "customer",
+      "haveedit": true,
+      "haveadd": true,
+      "havedelete": true
+    },
+    {
+      "role": "admin",
+      "menu": "da",
+      "haveedit": true,
+      "haveadd": true,
+      "havedelete": true
+    },
+    {
+      "role": "user",
+      "menu": "user",
+      "haveedit": false,
+      "haveadd": false,
+      "havedelete": false
+    },
+    {
+      "role": "user",
+      "menu": "customer",
+      "haveedit": true,
+      "haveadd": true,
+      "havedelete": false
+    }
+  ],
+  "customer": [
+    {
+      "id": 1,
+      "name": "rakhesh",
+      "Creditlimit": 1000
+    },
+    {
+      "id": 2,
+      "name": "rahul",
+      "Creditlimit": 1000
+    }
+  ]
+}

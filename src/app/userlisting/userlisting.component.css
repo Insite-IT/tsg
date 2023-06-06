@@ -1,0 +1,8 @@
+/*  */
+.mat-card-container{
+    position:relative;
+    right: 100px;
+    left: 100px;
+    background-color:aqua;
+    margin-block-start: 10%;
+}
