@@ -4,7 +4,15 @@
     left: 100px;
     margin-right: 100px;
     margin-left: 400px;
-    margin-top: 100px;
+    margin-top: 200px;
     margin-bottom: 100px;
-    background-color: aquamarine;
+    background-color: rgb(163, 195, 218);
+}
+
+.login-btn{
+    background-color: rgb(117, 148, 171);
+}
+
+.register-btn{
+    background-color: rgb(117, 148, 171);
 }
